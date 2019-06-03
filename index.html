@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container father">
+      <div>
+        <h5>Сколько будет 10+10+10+10+10+10+10+10+10+10+10+10+10+10+10+10+10+10?</h5>  
+      </div>
+      <div class="px-3 py-3 border otvet1">150</div>
+      <div class="px-3 py-3 border otvet2">180</div>
+      <div class="px-3 py-3 border otvet3">200</div>
+    </div>
+
+    <div class="container father2" style="display:none">
+      <div>
+        <h5>Как зовут президента США?</h5>  
+      </div>
+      <div class="px-3 py-3 border otvet4">Дональд Трамп</div>
+      <div class="px-3 py-3 border otvet5">Владимир Путин</div>
+      <div class="px-3 py-3 border otvet6">Адольф Гитлер</div>
+    </div>
+
+    <div class="container father3" style="display:none">
+      <div>
+        <h5>Какой ученый показал язык?</h5>  
+      </div>
+      <div class="px-3 py-3 border otvet7">Кекуле Фридрих Август</div>
+      <div class="px-3 py-3 border otvet8">Паули Вольфганг Эрнст</div>
+      <div class="px-3 py-3 border otvet9">Альберт Энштейн</div>
+    </div>
+    
+    <div class="container father4" style="display:none">
+      <div>
+        <h5>Сколько людей на земле?</h5>  
+      </div>
+      <div class="px-3 py-3 border otvet10">10млрд</div>
+      <div class="px-3 py-3 border otvet11">5млрд</div>
+      <div class="px-3 py-3 border otvet12">7млдр</div>
+    </div>
+
+    <div class="container father5" style="display:none">
+      <div>
+        <h5>Найдите танк ИС2</h5>  
+      </div>
+      <div class="px-3 py-3 border otvet13">
+        <img src="T.jpg" class="w-25">
+      </div>
+      <div class="px-3 py-3 border otvet14">
+        <img src="is2.jpg" class="">
+      </div>
+      <div class="px-3 py-3 border otvet15">
+        <img src="kv.jpg" class="">
+      </div>
+    </div>
+
+    <div class="container father6" style="display:none">
+      <div>
+        <h5>Сколько людей на земле?</h5>  
+      </div>
+      <div class="px-3 py-3 border otvet16">10млрд</div>
+      <div class="px-3 py-3 border otvet17">5млрд</div>
+      <div class="px-3 py-3 border otvet18">7млдр</div>
+    </div>
+ 
+
+
+    <script type="text/javascript">
+      document.querySelector(".otvet1").onclick = function(){
+        alert("Не правильно" )
+      }
+      document.querySelector(".otvet2").onclick = function(){
+        alert("Правильно")
+      document.querySelector(".father").style.display = "none"
+      document.querySelector(".father2").style.display = "block" 
+      }
+      document.querySelector(".otvet3").onclick = function(){
+        alert("Не правильно")
+      }
+
+
+      document.querySelector(".otvet4").onclick = function(){
+        alert("Правильно" )
+        document.querySelector(".father2").style.display = "none"
+        document.querySelector(".father3").style.display = "block"
+      }
+      document.querySelector(".otvet5").onclick = function(){
+        alert("Не правильно")
+       
+      }
+      document.querySelector(".otvet6").onclick = function(){
+        alert("Не правильно")
+      }
+
+
+      document.querySelector(".otvet7").onclick = function(){
+        alert("Не правильно" )
+        
+      }
+      document.querySelector(".otvet8").onclick = function(){
+        alert("Не правильно")
+      }
+      document.querySelector(".otvet9").onclick = function(){
+        alert("Правильно")
+        document.querySelector(".father3").style.display = "none"
+        document.querySelector(".father4").style.display = "block"
+      }
+
+
+      document.querySelector(".otvet10").onclick = function(){
+        alert("Не правильно" )
+        
+      }
+      document.querySelector(".otvet11").onclick = function(){
+        alert("Не правильно")
+      }
+      document.querySelector(".otvet12").onclick = function(){
+        alert("Правильно")
+        document.querySelector(".father4").style.display = "none"
+        document.querySelector(".father5").style.display = "block"
+      }
+
+
+      document.querySelector(".otvet13").onclick = function(){
+        alert("Не правильно" ) 
+      }
+      document.querySelector(".otvet14").onclick = function(){
+        alert("Правильно")
+        document.querySelector(".father5").style.display = "none"
+        document.querySelector(".father6").style.display = "block"
+      }
+      document.querySelector(".otvet15").onclick = function(){
+        alert("Не правильно")
+        
+      }
+
+
+      document.querySelector(".otvet16").onclick = function(){
+        alert("Не правильно" ) 
+      }
+      document.querySelector(".otvet17").onclick = function(){
+        alert("Правильно")
+        document.querySelector(".father6").style.display = "none"
+        document.querySelector(".father7").style.display = "block"
+      }
+      document.querySelector(".otvet18").onclick = function(){
+        alert("Не правильно")
+        
+      }
+       
+       
+  
+    </script>
+    
+  </body>
+</html>
